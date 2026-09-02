@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>📘 Unit 2 My Community 🖍️</title>
+<title>📘 Unit 6 I Like Basketball! 🖍️</title>
 <style>
   body {
     margin: 0;
@@ -210,7 +210,7 @@
 <body>
 
 <div class="start-screen" id="startScreen">
-  <h1> 📘 Unit 2 My Community 🖍️</h1>
+  <h1> 📘 Unit 6 I Like Basketball! 🖍️</h1>
   <p> Help Kevin the Cat learn about her Community!</p>
   <button class="start-button" onclick="startGame()">Start Game</button>
   <audio id="bgMusic" loop>
@@ -228,45 +228,45 @@
 </div>
 
 <div class="targets" id="targetArea">
-  <div class="dropzone" data-match="fire station"><img src="fire-station.jpg" alt="fire station">
-      <button class="play-button" onclick="playAudio('fire stationAudio')">▶️</button>
-      <audio id="fire stationAudio" src="fire station.mp3"></audio></div>
+  <div class="dropzone" data-match="basketball"><img src="basketball.jpg" alt="basketball">
+      <button class="play-button" onclick="playAudio('basketballAudio')">▶️</button>
+      <audio id="basketballAudio" src="basketball.mp3"></audio></div>
   
-  <div class="dropzone" data-match="hospital"><img src="hospital.jpg" alt="hospital">
-      <button class="play-button" onclick="playAudio('hospitalAudio')">▶️</button>
-    <audio id="hospitalAudio" src="hospital.mp3"></audio></div>
+  <div class="dropzone" data-match="football"><img src="football.jpg" alt="football">
+      <button class="play-button" onclick="playAudio('footballAudio')">▶️</button>
+    <audio id="footballAudio" src="football.mp3"></audio></div>
   
-  <div class="dropzone" data-match="park"><img src="park.jpg" alt="park">
-      <button class="play-button" onclick="playAudio('parkAudio')">▶️</button>
-      <audio id="parkAudio" src="park.mp3"></audio></div>
+  <div class="dropzone" data-match="soccer"><img src="soccer.jpg" alt="soccer">
+      <button class="play-button" onclick="playAudio('soccerAudio')">▶️</button>
+      <audio id="soccerAudio" src="soccer.mp3"></audio></div>
   
-  <div class="dropzone" data-match="police station"><img src="police-station.jpg" alt="police station">
-      <button class="play-button" onclick="playAudio('police stationAudio')">▶️</button>
-      <audio id="police stationAudio" src="police station.mp3"></audio></div>
+  <div class="dropzone" data-match="tennis"><img src="tennis.jpg" alt="tennis">
+      <button class="play-button" onclick="playAudio('tennisAudio')">▶️</button>
+      <audio id="tennisAudio" src="tennis.mp3"></audio></div>
   
-  <div class="dropzone" data-match="restaurant"><img src="restaurant.jpg" alt="restaurant">
-      <button class="play-button" onclick="playAudio('restaurantAudio')">▶️</button>
-      <audio id="restaurantAudio" src="restaurant.mp3"></audio></div>
+  <div class="dropzone" data-match="volleyball"><img src="volleyball.jpg" alt="volleyball">
+      <button class="play-button" onclick="playAudio('volleyballAudio')">▶️</button>
+      <audio id="volleyballAudio" src="volleyball.mp3"></audio></div>
   
-  <div class="dropzone" data-match="supermarket"><img src="supermarket.jpg" alt="supermarket">
-      <button class="play-button" onclick="playAudio('supermarketAudio')">▶️</button>
-      <audio id="supermarketAudio" src="supermarket.mp3"></audio></div>
+  <div class="dropzone" data-match="baseball"><img src="baseball.jpg" alt="baseball">
+      <button class="play-button" onclick="playAudio('baseballAudio')">▶️</button>
+      <audio id="baseballAudio" src="baseball.mp3"></audio></div>
   
-  <div class="dropzone" data-match="doctor"><img src="doctor.jpg" alt="doctor">
-      <button class="play-button" onclick="playAudio('doctorAudio')">▶️</button>
-      <audio id="doctorAudio" src="doctor.mp3"></audio></div>
+  <div class="dropzone" data-match="swimming"><img src="swimming.jpg" alt="swimming">
+      <button class="play-button" onclick="playAudio('swimmingAudio')">▶️</button>
+      <audio id="swimmingAudio" src="swimming.mp3"></audio></div>
   
-  <div class="dropzone" data-match="fire fighter"><img src="fire-fighter.jpg" alt="fire fighter">
-      <button class="play-button" onclick="playAudio('fire fighterAudio')">▶️</button>
-      <audio id="fire fighterAudio" src="firefighter.mp3"></audio></div>
+  <div class="dropzone" data-match="ping-pong"><img src="ping-pong.jpg" alt="ping-pong">
+      <button class="play-button" onclick="playAudio('ping-pongAudio')">▶️</button>
+      <audio id="ping-pongAudio" src="ping-pong.mp3"></audio></div>
+    
+  <div class="dropzone" data-match="pencil"><img src="pencil.jpg" alt="pencil">
+      <button class="play-button" onclick="playAudio('pencilAudio')">▶️</button>
+      <audio id="pencilAudio" src="firefighter.mp3"></audio></div>
   
-  <div class="dropzone" data-match="police officer"><img src="police-officer.jpg" alt="police officer">
-      <button class="play-button" onclick="playAudio('police officerAudio')">▶️</button>
-      <audio id="police officerAudio" src="police officer.mp3"></audio></div>
-  
-  <div class="dropzone" data-match="dinosaur"><img src="dinosaur.jpg" alt="dinosaur">
-      <button class="play-button" onclick="playAudio('dinosaurAudio')">▶️</button>
-      <audio id="dinosaurAudio" src="dinosaur.mp3"></audio></div>
+  <div class="dropzone" data-match="pig"><img src="pig.jpg" alt="pig">
+      <button class="play-button" onclick="playAudio('pigAudio')">▶️</button>
+      <audio id="pigAudio" src="pig.mp3"></audio></div>
 </div>
   
   <div class="feedback-line" id="feedbackLine"></div>
@@ -278,7 +278,7 @@
 </div>
 
 <script>
-let emotions=["fire station","hospital","park","police station","restaurant","supermarket","doctor","fire fighter","police officer","dinosaur"];
+let emotions=["basketball","football","soccer","tennis","volleyball","baseball","swimming","ping-pong","pencil","pig"];
 const bunny=document.getElementById("bunny");
 const egg=document.getElementById("egg");
 const feedbackLine=document.getElementById("feedbackLine");
